@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>LAYOUT</title>
+    </head>
+    <style>
+        body{
+            background-image: linear-gradient(90deg ,rgb(0, 0, 0),rgb(7, 7, 34) ,rgb(37, 37, 73),rgb(43, 43, 95));
+        }
+        header{
+            display: flex;
+            height: 200px;
+            flex-direction: row;
+        }
+        .right{
+            width: 75%;
+            color: gold;
+            font-size: 20px;
+            background-image: url(https://images.alphacoders.com/605/thumb-1920-605799.jpg);
+            background-size: cover;
+            display: flex;
+
+            justify-content: space-evenly;
+        }
+        .left{
+            width: 25%;
+            background-image:url(https://wallpapers.com/images/high/dragon-ball-super-pictures-hcs8zdp6prujl5np.webp);
+            background-size: cover;
+            display: flex;
+            align-items: end;
+            justify-content: space-evenly;
+        }
+        .gt{
+            margin-top:0px;
+        }
+        nav{
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-image: linear-gradient(90deg,rgb(240, 96, 96),rgb(241, 138, 138),rgb(252, 252, 135),rgb(245, 245, 51));
+            
+        }
+        .n{
+            height: inherit;
+            display: flex;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+        }
+        .n:hover{
+            background-color: blue;
+            border-radius: 20px;
+            transition: 1s;
+        }section{
+            height: 70%;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .s1{
+            color: antiquewhite;
+            background-image: url(https://w0.peakpx.com/wallpaper/215/1023/HD-wallpaper-baby-vegeta-dragonballz.jpg);
+            background-size: cover;
+            width: 20%;
+            background-color: rgb(20, 20, 20,.1);
+        }
+        .s2{
+            width: 60%;
+            background-color: rgb(20, 20, 20,.1);
+            background-image: url(https://www.pcprofessionale.it/wp-content/uploads/2018/09/DB.jpg);
+            background-size: cover;
+        }
+        .s3{
+            width: 20%;
+            background-image: url(https://1474899231.rsc.cdn77.org/api/cc-wallpaper-image/200/420/painting-art-fire-uzaufv0);
+            background-size: cover;
+            background-color: rgb(20, 20, 20,.1);
+        }footer{
+            height: 10%;
+            background-color: rgb(132, 48, 211,0.3);
+            h3{
+                text-align: center;
+
+            }
+        }
+    </style>
+    <body>
+        <header>
+            <div class="left">
+                <span>&#11088;</span>
+                <span>&#11088;</span>
+                <span>&#11088;</span>
+                <span>&#11088;</span>
+                <span>&#11088;</span>
+                <span>&#11088;</span>
+                <span>&#11088;</span>
+            </div>
+            <div class="right">
+                <h2>Dragon Ball Z</h2>
+            </div>
+        </header>
+        <nav>
+            <div class="n"><a href="">Home</a></div>
+            <div class="n"><a href="">About</a></div>
+            <div class="n"><a href="">Movies</a></div>
+            <div class="n"><a href="">UpComing</a></div>
+            <div class="n"><a href="">Trends</a></div>
+        </nav>
+        <section>
+            <div class="s1">
+                <marquee onmouseout="this.start()" onmouseover="this.stop()" direction="up">
+                    <h3>Dr Doom</h3>
+                    <h3>Superman 3</h3>
+                    <h3>sidhubath arpudha thivu</h3>
+                </marquee>
+            </div>
+            <div class="s2"></div>
+            <div class="s3"></div>
+        </section>
+        <footer><br>
+            <h3>Thank You</h3>
+        </footer>
+    </body>
+</html>
